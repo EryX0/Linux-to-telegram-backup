@@ -36,3 +36,5 @@ python3 main.py
 ```
 
 **or** set a cronjob to run it periodically (only the main.py), [tutorial for setting cronjob here](https://towardsdatascience.com/how-to-schedule-python-scripts-with-cron-the-only-guide-youll-ever-need-deea2df63b4e).
+
+docker image is also available [Here](https://hub.docker.com/repository/docker/eryx0/linux-to-telegram-backup/general), guide for docker deployment is soon to be added.
