@@ -34,7 +34,7 @@ def download_remote_file(sftp_client, remote_path, local_path):
         print(f"Error: Remote file/folder not found - {remote_path}")
         print(f"Exception: {e}")
     except Exception as e:
-        print(f"Error: {e}")
+        print(e)
 
 
 def zip_directory(directory_path, zip_path):
